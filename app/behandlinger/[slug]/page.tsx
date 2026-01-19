@@ -176,7 +176,8 @@ export default async function TreatmentPage({ params }: Props) {
                                     href={site.contact.bookingUrl}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="block w-full text-center bg-white text-primary font-semibold py-3 rounded-lg hover:bg-white/90 transition-colors"
+                                    className="block w-full text-center bg-white font-semibold py-3 rounded-lg hover:bg-white/90 transition-colors"
+                                    style={{ color: '#25a31d' }}
                                 >
                                     Book behandling
                                 </a>
