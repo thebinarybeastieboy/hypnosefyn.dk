@@ -195,12 +195,6 @@ export default function PraktiskPage() {
                                         <svg className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                                         </svg>
-                                        Kom i behageligt tøj
-                                    </li>
-                                    <li className="flex items-start gap-2">
-                                        <svg className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                                        </svg>
                                         Sæt telefonen på lydløs
                                     </li>
                                     <li className="flex items-start gap-2">
