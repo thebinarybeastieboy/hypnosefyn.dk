@@ -21,9 +21,9 @@ export default function Footer() {
                         </Link>
                         <p className="text-white/80 text-sm leading-relaxed mb-4">
                             Professionel hypnosebehandling i Svendborg med over 27 års erfaring.
-                            Behandling af <Link href="/behandlinger/angst" className="text-white underline hover:text-white/80">angst</Link>,{' '}
-                            <Link href="/behandlinger/stress" className="text-white underline hover:text-white/80">stress</Link>,{' '}
-                            <Link href="/behandlinger/fobier" className="text-white underline hover:text-white/80">fobier</Link> og meget mere.
+                            Behandling af <Link href="/behandlinger/angst" className="underline hover:opacity-80" style={{ color: 'white' }}>angst</Link>,{' '}
+                            <Link href="/behandlinger/stress" className="underline hover:opacity-80" style={{ color: 'white' }}>stress</Link>,{' '}
+                            <Link href="/behandlinger/fobier" className="underline hover:opacity-80" style={{ color: 'white' }}>fobier</Link> og meget mere.
                         </p>
                         <a
                             href={site.social.trustpilot}
