@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "name": "Line Hornshøj Vissing",
+        "text": "Jacob er dygtig og professionel, og skaber et trygt og omsorgsfuldt rum, der er nemt at slappe af og være ærlig i. Bedste terapiform jeg har prøvet, og jeg vil varmt anbefale det.",
+        "type": "behandling",
+        "rating": 5
+    },
+    {
+        "id": "2",
+        "name": "Martin",
+        "text": "Jeg har døjet med sygdomsangst længe og tog til Jakob og han har hjulpet mig godt på vej til hvor disse tanker ikke generer så længe af gangen, og har givet mig en bedre hverdags ro jeg ikke har oplevet længe.",
+        "type": "angst",
+        "rating": 5
+    },
+    {
+        "id": "3",
+        "name": "Hanne",
+        "text": "Jacob hjalp med med rygestop for over 20 år siden og en behandling var nok. Det var en behagelig oplevelse at komme i hypnose. Jeg har ikke rørt en cigaret siden, så de penge har virkelig været givet godt ud.",
+        "type": "rygestop",
+        "rating": 5
+    },
+    {
+        "id": "4",
+        "name": "Gustav Posch Rønn",
+        "text": "Har døjet med panikangreb, og angst for angsten, hvilket begrænsede mig en del, indtil jeg tog til Jacob. Det har hjulpet helt vildt meget, og været med til at øge motivation og indsats i hverdagen.",
+        "type": "angst",
+        "rating": 5
+    },
+    {
+        "id": "5",
+        "name": "Hansen",
+        "text": "Jeg var hos Jacob i går, hvor jeg fik hypnose mod klaustrobofi. Mærkede en lettelse i krop og sind. Tog straks over i shoppingcenteret og afprøvede flere elevatorer. De mange ture var 'tja, kom bare an', og en dejlig fornemmelse af ligegyldighed.",
+        "type": "klaustrofobi",
+        "rating": 5
+    },
+    {
+        "id": "6",
+        "name": "Mikkel Nielsen",
+        "text": "Første gang jeg prøvede hypnose. Rigtig god oplevelse hos Jacob!",
+        "type": "flyskræk",
+        "rating": 5
+    },
+    {
+        "id": "7",
+        "name": "David Scott",
+        "text": "Havde min første oplevelse med hypnose og var enormt positiv overrasket. Virkelig en speciel oplevelse og jeg er enormt spændt på fremtiden. Tusinde tak Jacob.",
+        "type": "behandling",
+        "rating": 5
+    },
+    {
+        "id": "8",
+        "name": "Heidi Agesen",
+        "text": "Følte mig tryg og godt tilpas. Virkelig dygtig.",
+        "type": "behandling",
+        "rating": 5
+    },
+    {
+        "id": "9",
+        "name": "Mariam",
+        "text": "Blev hypnotiseret for 15 år siden for at stoppe med at ryge. Og jeg har ikke rørt en cigaret siden. De bedste penge jeg nogensinde har brugt 😊",
+        "type": "rygestop",
+        "rating": 5
+    },
+    {
+        "id": "10",
+        "name": "Tine Østergaard",
+        "text": "Jacob er meget behagelig og nem at tale med. Han skaber en god og tryg stemning og jeg kan kun anbefale ham til andre der har brug for at få ro i deres krop. Meget professionel og erfaren.",
+        "type": "behandling",
+        "rating": 5
+    }
+]

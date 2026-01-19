@@ -1,0 +1,40 @@
+{
+    "name": "Hypnose Fyn",
+    "tagline": "Professionel hypnosebehandling i Svendborg",
+    "description": "Hypnosefyn tilbyder professionel hypnosebehandling på Fyn med over 27 års erfaring. Book din session i Svendborg.",
+    "address": {
+        "name": "Lehns Hus",
+        "street": "Sørup Kirkevej 74",
+        "city": "Svendborg",
+        "zip": "5700",
+        "country": "Danmark"
+    },
+    "contact": {
+        "email": "hypnosefyn@mail.jacobstrachotta.dk",
+        "bookingUrl": "https://jacobstrachotta.dk/hypnose-svendborg/"
+    },
+    "social": {
+        "trustpilot": "https://dk.trustpilot.com/review/jacobstrachotta.dk"
+    },
+    "seo": {
+        "title": "Hypnose Fyn | Professionel Hypnosebehandling i Svendborg",
+        "description": "Oplev professionel hypnosebehandling i Svendborg med Jacob Strachotta. Over 27 års erfaring, 10.000+ sessioner. Behandling af angst, stress, fobier og meget mere.",
+        "keywords": [
+            "hypnose",
+            "hypnosebehandling",
+            "Svendborg",
+            "Fyn",
+            "angst",
+            "stress",
+            "fobier",
+            "hypnoterapi"
+        ]
+    },
+    "owner": {
+        "name": "Jacob Strachotta",
+        "experience": "27+ års erfaring",
+        "sessions": "10.000+ sessioner",
+        "educated": "750+ uddannede",
+        "company": "Institut for Avanceret Hypnose"
+    }
+}

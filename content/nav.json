@@ -1,0 +1,68 @@
+{
+    "mainNav": [
+        {
+            "label": "Hypnose",
+            "href": "/hypnose"
+        },
+        {
+            "label": "Behandlinger",
+            "href": "/behandlinger"
+        },
+        {
+            "label": "Praktisk",
+            "href": "/praktisk"
+        },
+        {
+            "label": "Om Jacob",
+            "href": "/om-jacob"
+        },
+        {
+            "label": "Uddannelse",
+            "href": "/uddannelse"
+        },
+        {
+            "label": "Kontakt",
+            "href": "/kontakt"
+        }
+    ],
+    "footerNav": [
+        {
+            "label": "Hypnose",
+            "href": "/hypnose"
+        },
+        {
+            "label": "Behandlinger",
+            "href": "/behandlinger"
+        },
+        {
+            "label": "Praktisk",
+            "href": "/praktisk"
+        },
+        {
+            "label": "Om Jacob",
+            "href": "/om-jacob"
+        },
+        {
+            "label": "Uddannelse",
+            "href": "/uddannelse"
+        },
+        {
+            "label": "FAQ",
+            "href": "/faq"
+        },
+        {
+            "label": "Kontakt",
+            "href": "/kontakt"
+        }
+    ],
+    "cta": {
+        "primary": {
+            "label": "Book behandling",
+            "href": "https://jacobstrachotta.dk/hypnose-svendborg/"
+        },
+        "secondary": {
+            "label": "Læs mere",
+            "href": "/hypnose"
+        }
+    }
+}
