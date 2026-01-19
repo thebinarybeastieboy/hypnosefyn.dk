@@ -109,7 +109,8 @@ export default function Footer() {
                             href="https://jacobstrachotta.dk"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-white/80 hover:text-white transition-colors"
+                            className="hover:opacity-80 transition-colors underline"
+                            style={{ color: 'white' }}
                         >
                             Institut for Avanceret Hypnose
                         </a>
