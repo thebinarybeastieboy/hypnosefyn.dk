@@ -94,10 +94,51 @@ export function generateServiceSchema() {
             '@id': 'https://hypnosefyn.dk/#business',
         },
         serviceType: 'Hypnoterapi',
-        areaServed: {
-            '@type': 'Place',
-            name: 'Fyn, Danmark',
-        },
+        areaServed: [
+            {
+                '@type': 'City',
+                name: 'Svendborg',
+                containedInPlace: { '@type': 'AdministrativeArea', name: 'Fyn' },
+            },
+            {
+                '@type': 'City',
+                name: 'Odense',
+                containedInPlace: { '@type': 'AdministrativeArea', name: 'Fyn' },
+            },
+            {
+                '@type': 'City',
+                name: 'Nyborg',
+            },
+            {
+                '@type': 'City',
+                name: 'Faaborg',
+            },
+            {
+                '@type': 'City',
+                name: 'Middelfart',
+            },
+            {
+                '@type': 'City',
+                name: 'Assens',
+            },
+            {
+                '@type': 'City',
+                name: 'Kerteminde',
+            },
+            {
+                '@type': 'City',
+                name: 'Ringe',
+            },
+            {
+                '@type': 'City',
+                name: 'Bogense',
+            },
+            {
+                '@type': 'AdministrativeArea',
+                name: 'Fyn',
+                containedInPlace: { '@type': 'Country', name: 'Danmark' },
+            },
+        ],
         hasOfferCatalog: {
             '@type': 'OfferCatalog',
             name: 'Hypnosebehandlinger',

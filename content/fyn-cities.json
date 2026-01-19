@@ -1,0 +1,118 @@
+{
+    "description": "Byer på Fyn som Hypnose Fyn betjener",
+    "regions": [
+        {
+            "name": "Sydfyn",
+            "cities": [
+                {
+                    "name": "Svendborg",
+                    "distance": 0,
+                    "primary": true
+                },
+                {
+                    "name": "Faaborg",
+                    "distance": 25
+                },
+                {
+                    "name": "Nyborg",
+                    "distance": 30
+                },
+                {
+                    "name": "Ringe",
+                    "distance": 20
+                },
+                {
+                    "name": "Rudkøbing",
+                    "distance": 35
+                },
+                {
+                    "name": "Ærøskøbing",
+                    "distance": 40
+                }
+            ]
+        },
+        {
+            "name": "Odense og omegn",
+            "cities": [
+                {
+                    "name": "Odense",
+                    "distance": 45
+                },
+                {
+                    "name": "Bellinge",
+                    "distance": 40
+                },
+                {
+                    "name": "Højby",
+                    "distance": 50
+                },
+                {
+                    "name": "Otterup",
+                    "distance": 55
+                }
+            ]
+        },
+        {
+            "name": "Vest- og Nordfyn",
+            "cities": [
+                {
+                    "name": "Assens",
+                    "distance": 35
+                },
+                {
+                    "name": "Middelfart",
+                    "distance": 55
+                },
+                {
+                    "name": "Bogense",
+                    "distance": 60
+                },
+                {
+                    "name": "Søndersø",
+                    "distance": 50
+                },
+                {
+                    "name": "Vissenbjerg",
+                    "distance": 45
+                }
+            ]
+        },
+        {
+            "name": "Østfyn",
+            "cities": [
+                {
+                    "name": "Kerteminde",
+                    "distance": 50
+                },
+                {
+                    "name": "Langeskov",
+                    "distance": 40
+                },
+                {
+                    "name": "Munkebo",
+                    "distance": 45
+                }
+            ]
+        }
+    ],
+    "allCities": [
+        "Svendborg",
+        "Faaborg",
+        "Nyborg",
+        "Ringe",
+        "Rudkøbing",
+        "Ærøskøbing",
+        "Odense",
+        "Bellinge",
+        "Højby",
+        "Otterup",
+        "Assens",
+        "Middelfart",
+        "Bogense",
+        "Søndersø",
+        "Vissenbjerg",
+        "Kerteminde",
+        "Langeskov",
+        "Munkebo"
+    ]
+}

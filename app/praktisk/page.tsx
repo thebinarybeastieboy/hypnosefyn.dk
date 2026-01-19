@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import CTA from '@/components/blocks/CTA';
 import site from '@/content/site.json';
+import fynCities from '@/content/fyn-cities.json';
 
 export const metadata: Metadata = {
     title: 'Praktisk information',
@@ -241,6 +242,58 @@ export default function PraktiskPage() {
                         >
                             Book behandling
                         </a>
+                    </div>
+                </div>
+            </section>
+
+            {/* Service Area - Local SEO */}
+            <section className="section bg-background-alt">
+                <div className="container">
+                    <div className="max-w-4xl mx-auto">
+                        <div className="text-center mb-10">
+                            <h2
+                                className="text-2xl md:text-3xl font-bold text-text mb-4"
+                                style={{ fontFamily: 'var(--font-headline)' }}
+                            >
+                                Vi betjener hele Fyn
+                            </h2>
+                            <p className="text-text-light max-w-2xl mx-auto">
+                                Vores klinik ligger centralt i Svendborg med nem adgang fra alle dele af Fyn.
+                                Uanset om du kommer fra Odense, Nyborg, Faaborg eller andre fynske byer, er du velkommen.
+                            </p>
+                        </div>
+
+                        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+                            {fynCities.regions.map((region) => (
+                                <div key={region.name} className="bg-white rounded-xl p-5 shadow-sm">
+                                    <h3
+                                        className="font-semibold text-primary mb-3"
+                                        style={{ fontFamily: 'var(--font-headline)' }}
+                                    >
+                                        {region.name}
+                                    </h3>
+                                    <ul className="space-y-2 text-sm">
+                                        {region.cities.map((city) => (
+                                            <li key={city.name} className="flex justify-between text-text-light">
+                                                <span className={city.primary ? 'font-medium text-text' : ''}>
+                                                    {city.name}
+                                                </span>
+                                                {city.distance > 0 && (
+                                                    <span className="text-text-muted">~{city.distance} km</span>
+                                                )}
+                                                {city.primary && (
+                                                    <span className="text-primary text-xs font-medium">Klinik</span>
+                                                )}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            ))}
+                        </div>
+
+                        <p className="text-center text-sm text-text-muted mt-8">
+                            Hypnosebehandling i {fynCities.allCities.slice(0, -1).join(', ')} og {fynCities.allCities.slice(-1)}
+                        </p>
                     </div>
                 </div>
             </section>
