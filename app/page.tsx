@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Hero from '@/components/blocks/Hero';
 import TreatmentCards from '@/components/blocks/TreatmentCards';
 import Testimonials from '@/components/blocks/Testimonials';
@@ -159,10 +160,13 @@ export default function HomePage() {
             </div>
             <div className="relative">
               <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg">
-                <img
+                <Image
                   src="/images/jacob-session.jpg"
                   alt="Jacob Strachotta under en hypnosesession"
+                  width={400}
+                  height={500}
                   className="w-full h-full object-cover"
+                  priority={false}
                 />
               </div>
             </div>

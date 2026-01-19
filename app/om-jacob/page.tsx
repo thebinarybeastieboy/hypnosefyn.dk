@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import CTA from '@/components/blocks/CTA';
 import site from '@/content/site.json';
@@ -97,10 +98,13 @@ export default function OmJacobPage() {
                         <div className="space-y-6">
                             {/* Photo */}
                             <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
-                                <img
+                                <Image
                                     src="/images/jacob-strachotta.jpg"
                                     alt="Jacob Strachotta - Hypnotisør"
+                                    width={300}
+                                    height={400}
                                     className="w-full h-full object-cover"
+                                    priority
                                 />
                             </div>
 
