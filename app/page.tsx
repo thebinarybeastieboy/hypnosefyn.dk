@@ -37,14 +37,15 @@ export default function HomePage() {
               Hvad er hypnose?
             </h2>
             <p className="text-lg text-text-light leading-relaxed mb-6">
-              Hypnose er en naturlig tilstand af dyb afspænding og fokuseret opmærksomhed,
+              Hypnose er en naturlig tilstand af dyb mental afspænding og fokuseret opmærksomhed,
               hvor dit underbevidste sind bliver mere tilgængeligt for positiv forandring.
               Det er ikke søvn, men en tilstand af skærpet koncentration, hvor du forbliver
-              bevidst og i kontrol hele vejen igennem.
+              bevidst og i kontrol hele vejen igennem. Du behøver ikke være fysisk afspændt –
+              det er den mentale del af sindet, der frigøres.
             </p>
             <DefinitionBox
               term="Hypnose"
-              definition="Hypnose er en naturlig bevidsthedstilstand karakteriseret ved dyb afspænding og øget fokus, hvor den bevidste del af sindet træder i baggrunden, og det underbevidste sind bliver mere modtageligt for positive forandringer. Al hypnose er i bund og grund selvhypnose – du er altid i kontrol."
+              definition="Hypnose er en naturlig bevidsthedstilstand karakteriseret ved dyb mental afspænding og øget fokus, hvor den bevidste del af sindet træder i baggrunden, og det underbevidste sind bliver mere modtageligt for positive forandringer. Du behøver ikke være fysisk afspændt – det handler om at geare ned mentalt. Al hypnose er i bund og grund selvhypnose – du er altid i kontrol."
             />
           </div>
         </div>
@@ -99,7 +100,7 @@ export default function HomePage() {
           <div className="grid gap-8 md:grid-cols-3 lg:grid-cols-5">
             {[
               { step: 1, title: "Samtale", desc: "Vi starter med at tale om dine udfordringer og ønsker" },
-              { step: 2, title: "Afspænding", desc: "Du guides ind i en dyb, behagelig afspænding" },
+              { step: 2, title: "Mental afspænding", desc: "Du guides ind i en rolig, fokuseret tilstand" },
               { step: 3, title: "Hypnose", desc: "Vi arbejder med dit underbevidste sind" },
               { step: 4, title: "Integration", desc: "Nye mønstre og ressourcer forankres" },
               { step: 5, title: "Afslutning", desc: "Du vender tilbage fuldt bevidst og forfrisket" },

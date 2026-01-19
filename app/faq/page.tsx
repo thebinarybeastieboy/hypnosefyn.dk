@@ -14,7 +14,7 @@ const faqs = [
         questions: [
             {
                 q: "Hvad er hypnose?",
-                a: "Hypnose er en naturlig bevidsthedstilstand karakteriseret ved dyb afspænding og øget fokus. I denne tilstand bliver dit underbevidste sind mere modtageligt for positive forandringer. Du er vågen og bevidst hele vejen igennem."
+                a: "Hypnose er en naturlig bevidsthedstilstand karakteriseret ved dyb mental afspænding og øget fokus. I denne tilstand bliver dit underbevidste sind mere modtageligt for positive forandringer. Du behøver ikke være fysisk afspændt – det er sindet, der giver slip. Du er vågen og bevidst hele vejen igennem."
             },
             {
                 q: "Kan alle hypnotiseres?",

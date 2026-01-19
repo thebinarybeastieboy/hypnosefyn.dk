@@ -42,7 +42,7 @@ export default function HypnosePage() {
 
                         <DefinitionBox
                             term="Hypnose"
-                            definition="Hypnose er en naturlig bevidsthedstilstand karakteriseret ved dyb afspænding og øget fokus, hvor den bevidste del af sindet træder i baggrunden, og det underbevidste sind bliver mere modtageligt for positive forandringer. Al hypnose er i bund og grund selvhypnose – du er altid i kontrol."
+                            definition="Hypnose er en naturlig bevidsthedstilstand karakteriseret ved dyb mental afspænding og øget fokus, hvor den bevidste del af sindet træder i baggrunden, og det underbevidste sind bliver mere modtageligt for positive forandringer. Du behøver ikke være fysisk afspændt – det handler om at geare ned mentalt. Al hypnose er i bund og grund selvhypnose – du er altid i kontrol."
                         />
 
                         <div className="prose prose-lg max-w-none text-text-light">
@@ -50,7 +50,8 @@ export default function HypnosePage() {
                                 Hvad sker der under hypnose?
                             </h2>
                             <p>
-                                Under hypnose oplever du en tilstand af dyb afspænding og skærpet koncentration.
+                                Under hypnose oplever du en tilstand af dyb mental afspænding og skærpet koncentration.
+                                Du behøver ikke være fysisk afspændt – det er sindet, der giver slip.
                                 Din bevidste, kritiske sans træder lidt i baggrunden, mens dit underbevidste sind
                                 bliver mere tilgængeligt og modtageligt for positive forandringer.
                             </p>
@@ -68,11 +69,11 @@ export default function HypnosePage() {
                                 især dem der har rødder i underbevidste mønstre:
                             </p>
                             <ul>
-                                <li><strong>Angst og fobier</strong> – herunder flyskræk, klaustrofobi, social angst</li>
-                                <li><strong>Stress</strong> – genfind ro og balance</li>
-                                <li><strong>Søvnproblemer</strong> – slip tankemylder og sov bedre</li>
-                                <li><strong>Vaner</strong> – rygestop, sukkertrang, overspisning</li>
-                                <li><strong>Præstationsangst</strong> – eksamensangst, sceneskræk</li>
+                                <li><strong><Link href="/behandlinger/angst">Angst</Link> og <Link href="/behandlinger/fobier">fobier</Link></strong> – herunder <Link href="/behandlinger/flyskraek">flyskræk</Link>, <Link href="/behandlinger/klaustrofobi">klaustrofobi</Link>, social angst</li>
+                                <li><strong><Link href="/behandlinger/stress">Stress</Link></strong> – genfind ro og balance</li>
+                                <li><strong><Link href="/behandlinger/soevn">Søvnproblemer</Link></strong> – slip tankemylder og sov bedre</li>
+                                <li><strong>Vaner</strong> – <Link href="/behandlinger/rygestop">rygestop</Link>, <Link href="/behandlinger/sukkertrang">sukkertrang</Link>, overspisning</li>
+                                <li><strong>Præstationsangst</strong> – <Link href="/behandlinger/eksamensangst">eksamensangst</Link>, sceneskræk</li>
                                 <li><strong>Selvtillid og selvværd</strong></li>
                             </ul>
 

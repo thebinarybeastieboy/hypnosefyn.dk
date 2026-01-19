@@ -14,19 +14,16 @@ export default function Footer() {
                     <div className="lg:col-span-1">
                         <Link
                             href="/"
-                            className="flex items-center gap-2 text-xl font-bold text-white hover:text-white/80 transition-colors mb-4"
+                            className="inline-block text-xl font-bold text-white hover:text-white/80 transition-colors mb-4"
                             style={{ fontFamily: 'var(--font-headline)' }}
                         >
-                            <img
-                                src="/images/logo.png"
-                                alt="Hypnose Fyn logo"
-                                className="h-10 w-auto brightness-0 invert"
-                            />
-                            <span>Hypnose Fyn</span>
+                            Hypnose Fyn
                         </Link>
                         <p className="text-white/80 text-sm leading-relaxed mb-4">
                             Professionel hypnosebehandling i Svendborg med over 27 års erfaring.
-                            Behandling af angst, stress, fobier og meget mere.
+                            Behandling af <Link href="/behandlinger/angst" className="underline hover:text-white">angst</Link>,{' '}
+                            <Link href="/behandlinger/stress" className="underline hover:text-white">stress</Link>,{' '}
+                            <Link href="/behandlinger/fobier" className="underline hover:text-white">fobier</Link> og meget mere.
                         </p>
                         <a
                             href={site.social.trustpilot}
