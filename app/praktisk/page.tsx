@@ -62,16 +62,21 @@ export default function PraktiskPage() {
                                 rel="noopener noreferrer"
                                 className="block aspect-[4/3] bg-gray-100 rounded-xl overflow-hidden relative group mb-6"
                             >
-                                <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary/10 to-primary/5">
-                                    <div className="text-center">
-                                        <svg className="w-16 h-16 text-primary mx-auto mb-4" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                                        </svg>
-                                        <p className="text-primary font-medium">Åbn i Google Maps</p>
+                                <img
+                                    src="/images/map.png"
+                                    alt="Kort over klinikken på Sørup Kirkevej"
+                                    className="w-full h-full object-cover"
+                                />
+                                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors flex items-center justify-center">
+                                    <div className="opacity-0 group-hover:opacity-100 transition-opacity bg-white/90 px-4 py-2 rounded-lg shadow-lg">
+                                        <p className="text-primary font-medium flex items-center gap-2">
+                                            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                                            </svg>
+                                            Åbn i Google Maps
+                                        </p>
                                     </div>
                                 </div>
-                                <div className="absolute inset-0 bg-primary/5 group-hover:bg-primary/10 transition-colors" />
                             </a>
 
                             <div className="space-y-4">
