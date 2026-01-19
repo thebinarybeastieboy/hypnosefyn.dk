@@ -89,7 +89,8 @@ export default function Footer() {
                             href={site.contact.bookingUrl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center justify-center px-6 py-3 bg-white text-primary font-medium rounded-md hover:bg-white/90 transition-colors"
+                            className="inline-flex items-center justify-center px-6 py-3 bg-white font-medium rounded-md hover:bg-white/90 transition-colors"
+                            style={{ color: '#25a31d' }}
                         >
                             Book nu
                             <svg className="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
