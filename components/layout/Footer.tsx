@@ -17,17 +17,11 @@ export default function Footer() {
                             className="flex items-center gap-2 text-xl font-bold text-white hover:text-white/80 transition-colors mb-4"
                             style={{ fontFamily: 'var(--font-headline)' }}
                         >
-                            <svg
-                                className="w-8 h-8"
-                                viewBox="0 0 32 32"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                                aria-hidden="true"
-                            >
-                                <circle cx="16" cy="16" r="14" stroke="currentColor" strokeWidth="2" />
-                                <circle cx="16" cy="16" r="8" stroke="currentColor" strokeWidth="2" opacity="0.6" />
-                                <circle cx="16" cy="16" r="3" fill="currentColor" />
-                            </svg>
+                            <img
+                                src="/images/logo.png"
+                                alt="Hypnose Fyn logo"
+                                className="h-10 w-auto brightness-0 invert"
+                            />
                             <span>Hypnose Fyn</span>
                         </Link>
                         <p className="text-white/80 text-sm leading-relaxed mb-4">
