@@ -5,8 +5,9 @@
   /* Colors */
   --color-primary: #25a31d;
   --color-primary-dark: #1e8a17;
-  --color-secondary: #1e73be;
-  --color-secondary-dark: #1a63a5;
+  --color-secondary: #166812;
+  /* Dark forest green - harmonious with primary */
+  --color-secondary-dark: #0f4d0c;
   --color-background: #ffffff;
   --color-background-alt: #f8f9fa;
   --color-text: #333333;
@@ -108,15 +109,16 @@ h3 {
   font-size: clamp(1.25rem, 3vw, 1.5rem);
 }
 
-/* Links */
+/* Links - use primary green for harmony */
 a {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:hover {
-  color: var(--color-secondary-dark);
+  color: var(--color-primary-dark);
+  text-decoration: underline;
 }
 
 /* Focus styles for accessibility */
