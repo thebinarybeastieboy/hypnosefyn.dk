@@ -32,7 +32,7 @@ export default function CTA({
     const buttonStyles = {
         primary: 'bg-white text-primary hover:bg-white/90',
         secondary: 'bg-white text-secondary hover:bg-white/90',
-        light: 'bg-primary text-white hover:bg-primary-dark',
+        light: 'bg-primary text-white hover:bg-primary-dark [&]:text-white [&]:hover:text-white',
     };
 
     const secondaryButtonStyles = {
