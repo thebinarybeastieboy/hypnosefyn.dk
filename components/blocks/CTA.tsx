@@ -65,6 +65,7 @@ export default function CTA({
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`inline-flex items-center justify-center px-8 py-4 font-semibold rounded-lg transition-all hover:scale-105 shadow-lg ${buttonStyles[variant]}`}
+                                style={{ color: variant === 'primary' || variant === 'secondary' ? '#25a31d' : 'white' }}
                             >
                                 {primaryButton.label}
                                 <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
@@ -75,6 +76,7 @@ export default function CTA({
                             <Link
                                 href={primaryButton.href}
                                 className={`inline-flex items-center justify-center px-8 py-4 font-semibold rounded-lg transition-all hover:scale-105 shadow-lg ${buttonStyles[variant]}`}
+                                style={{ color: variant === 'primary' || variant === 'secondary' ? '#25a31d' : 'white' }}
                             >
                                 {primaryButton.label}
                             </Link>
